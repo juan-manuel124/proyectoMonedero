@@ -21,8 +21,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/imagen" />
-
-
     </LinearLayout>
 
     <LinearLayout
@@ -64,7 +62,8 @@
         <ImageView
             android:layout_width="173dp"
             android:layout_height="214dp"
-            android:src="@drawable/dinero" />
+            android:src="@drawable/dinero"
+            android:contentDescription="TODO" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -72,38 +71,38 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="131dp"
+                android:layout_width="175dp"
                 android:layout_height="36dp"
                 android:text="Ingrese Usuario"
                 android:textColor="#3F51B5"
                 android:textSize="15dp" />
 
             <EditText
-                android:id="@+id/usuario"
-                android:layout_width="131dp"
-                android:layout_height="36dp"
-                android:hint="usuario"
-                android:minHeight="48dp" />
+                android:id="@+id/user"
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_digiteCorreo"
+                android:textSize="10dp" />
 
             <TextView
-                android:layout_width="131dp"
+                android:layout_width="177dp"
                 android:layout_height="36dp"
                 android:text="Ingrese Contraseña"
-                android:textColor="#72BD75"
+                android:textColor="#2E7D32"
                 android:textSize="15dp" />
 
             <EditText
-
                 android:id="@+id/contraseña"
-                android:layout_width="131dp"
-                android:layout_height="36dp"
-                android:hint="contraseña"
-                android:minHeight="48dp" />
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_Passt"
+                android:textSize="10dp" />
 
             <Button
-                android:id="@+id/usuario"
-                android:layout_width="match_parent"
-                android:layout_height="69dp"
+                android:id="@+id/ingresar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:minHeight="48dp"
                 android:onClick="ingreso"
                 android:text="Ingresar"

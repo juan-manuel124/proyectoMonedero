@@ -79,7 +79,7 @@
                 android:textSize="15dp" />
 
             <EditText
-                android:id="@+id/usuario"
+                android:id="@+id/user"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="usuario"

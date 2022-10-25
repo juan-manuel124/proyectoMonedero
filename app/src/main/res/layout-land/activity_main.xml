@@ -10,21 +10,22 @@
 
 
     <LinearLayout
-        android:layout_width="795dp"
+        android:layout_width="wrap_content"
         android:layout_height="100dp"
         android:layout_margin="10dp"
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="62dp">
+        tools:layout_editor_absoluteY="62dp"
+        android:gravity="center">
 
         <ImageView
-            android:layout_width="241dp"
+            android:layout_width="237dp"
             android:layout_height="wrap_content"
             android:src="@drawable/imagen" />
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="464dp"
+            android:layout_width="429dp"
             android:layout_height="match_parent"
 
             android:text="¿Acabas de cobrar tu salario y ya no tienes dinero? ¿No sabes en que gastos se termino tu dinero? No te preocupes ingresa a  DDD y lograrás administrar mejor tus ingresos, para que puedas lograr todo lo sueños que te propongas. "
@@ -37,16 +38,19 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="798dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="0dp"
         android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="274dp">
+        tools:layout_editor_absoluteY="274dp"
+        >
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="774dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="Ingresa Aqui"
@@ -79,11 +83,11 @@
                 android:textSize="15dp" />
 
             <EditText
-                android:id="@+id/usuario"
+                android:id="@+id/user"
                 android:layout_width="131dp"
-                android:layout_height="20dp"
-                android:hint="usuario"
-                android:minHeight="48dp" />
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_digiteCorreo"
+                android:textSize="10dp" />
 
             <TextView
                 android:layout_width="255dp"
@@ -96,9 +100,9 @@
 
                 android:id="@+id/contraseña"
                 android:layout_width="131dp"
-                android:layout_height="20dp"
-                android:hint="contraseña"
-                android:minHeight="48dp" />
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_Passt"
+                android:textSize="10dp" />
 
             <Button
                 android:id="@+id/usuario"

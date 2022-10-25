@@ -1,7 +1,25 @@
 <resources>
     <string name="app_name">Myaplicación2</string>
-
     <string name="textView_texto">Myaplicación2</string>
+    <string name="txt_welcome">Bienvenido</string>
+    <string name="txt_cancel">Cancelar</string>
+    <string name="txt_Name">Nombre de Usuario</string>
+    <string name="txt_Passt">Password</string>
+    <string name="txt_Introduction">Introducción</string>
+    <string name="txt_class1">Clase 1</string>
+    <string name="txt_digiteCorreo">correo@localhost.com</string>
+    <string name="txt_Leyenda">Ingeniero en sistemas con habilidades en programación, cuatro años de experiencia en desarrollo e implementación de secuencias lógicas en ambiente de producción, tengo gran capacidad de adaptación y aprendizaje, es mi propósito ser una pieza importante dentro del proceso de construcción de software. Tengo habilidades básicas en diferentes lenguajes en su manejo e interpretación. He tenido contacto con los lenguajes HTML, CSS, Python, Java, SQL, C#. todos esto dentro de las bases de la carrera, mi objetivo es afianzar y mejorar mis conocimientos desde la oportunidad que me sea brindada.</string>
+    <string name="txt_ErrorInt">Nombre de usuario o contraseña equivocado</string>
+    <string name="txt_Registrar">Registrar</string>
+    <string name="title_activity_registrar">RegistrarActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
 
 </resources>
