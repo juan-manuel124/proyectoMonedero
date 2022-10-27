@@ -78,7 +78,7 @@
                 android:textSize="15dp" />
 
             <EditText
-                android:id="@+id/user"
+                android:id="@+id/edtNombreUsuario"
                 android:layout_width="177dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/txt_digiteCorreo"
@@ -92,10 +92,13 @@
                 android:textSize="15dp" />
 
             <EditText
-                android:id="@+id/contraseña"
+                android:id="@+id/edtPassword"
                 android:layout_width="175dp"
                 android:layout_height="wrap_content"
-                android:hint="@string/txt_Passt"
+                android:hint="Digite contraseña"
+                android:inputType="textPassword"
+                tools:layout_editor_absoluteX="106dp"
+                tools:layout_editor_absoluteY="513dp"
                 android:textSize="10dp" />
 
             <Button
